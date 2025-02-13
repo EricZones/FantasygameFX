@@ -1,4 +1,4 @@
-module de.ericbagus.fantasygamefx {
+module de.ericzones.fantasygamefx {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,17 +6,17 @@ module de.ericbagus.fantasygamefx {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens de.ericbagus.fantasygamefx to javafx.fxml;
-    exports de.ericbagus.fantasygamefx;
-    exports de.ericbagus.fantasygamefx.gameplay;
-    exports de.ericbagus.fantasygamefx.graphics;
-    exports de.ericbagus.fantasygamefx.collectives.world;
-    exports de.ericbagus.fantasygamefx.collectives.creatures;
-    exports de.ericbagus.fantasygamefx.graphics.visuals;
-    exports de.ericbagus.fantasygamefx.collectives.creatures.fight;
-    exports de.ericbagus.fantasygamefx.collectives.creatures.heroes;
-    exports de.ericbagus.fantasygamefx.graphics.visuals.gamefield;
-    exports de.ericbagus.fantasygamefx.collectives.creatures.monster;
-    exports de.ericbagus.fantasygamefx.collectives.creatures.heroes.utils;
+    opens de.ericzones.fantasygamefx to javafx.fxml;
+    exports de.ericzones.fantasygamefx;
+    exports de.ericzones.fantasygamefx.gameplay;
+    exports de.ericzones.fantasygamefx.graphics;
+    exports de.ericzones.fantasygamefx.collectives.world;
+    exports de.ericzones.fantasygamefx.collectives.creatures;
+    exports de.ericzones.fantasygamefx.graphics.visuals;
+    exports de.ericzones.fantasygamefx.collectives.creatures.fight;
+    exports de.ericzones.fantasygamefx.collectives.creatures.heroes;
+    exports de.ericzones.fantasygamefx.graphics.visuals.gamefield;
+    exports de.ericzones.fantasygamefx.collectives.creatures.monster;
+    exports de.ericzones.fantasygamefx.collectives.creatures.heroes.utils;
 
 }

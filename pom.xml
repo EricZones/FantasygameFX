@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.ericbagus</groupId>
+    <groupId>de.ericzones</groupId>
     <artifactId>FantasygameFX</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>FantasygameFX</name>
@@ -80,7 +80,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>de.ericbagus.fantasygamefx</mainClass>
+                            <mainClass>de.ericzones.fantasygamefx</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
