@@ -12,7 +12,16 @@ FantasygameFX is a simple yet entertaining fantasy game in Java with a graphical
 ## Installation & Execution
 ### Requirements
 - Java Development Kit (JDK) 16 or higher
-- JavaFX (if not included in your JDK version)
+- Apache Maven
+
+### Execution
+```bash
+  mvn package
+  
+  cd target
+  
+  java -jar FantasygameFX-1.0-SNAPSHOT.jar
+  ```
 
 ## Controls
 | Key       | Action |
