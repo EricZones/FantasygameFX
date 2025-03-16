@@ -30,9 +30,6 @@ FantasygameFX is a simple yet entertaining fantasy game in Java with a graphical
 | Spacebar | Attack when an enemy is adjacent |
 | C | Activate special ability |
 
-## Contributors
-- **EricZones** - Developer
-
 ## Purpose
 The game was created during a project in school to be graded.
 It was originally developed in 2022 without git.
